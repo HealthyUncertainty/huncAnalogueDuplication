@@ -3,18 +3,6 @@
 A comparison of two R implementations of five fictional cost-effectiveness models, built to test how
 closely a model replicated from a report matches its reference implementation.
 
-- **Models:** CAIS, CISS, CNRD, DMSS, NCD (all fictional, illustrative).
-- **Original:** the reference packages (`huncMarkov*`), one per model. Not copied here; see `models/original/`.
-- **Duplicate:** single-folder R scripts written from the same cost-effectiveness reports (`models/duplicate/`).
-- Differences are treated as deviations in the Duplicate. Both are compared on one shared background-mortality table (CDC WONDER 2020, from the NCD report).
-
-## Main result
-
-NCD matches exactly. In the other four models the Duplicate's costs are lower in every arm (0.3% to 7.7%),
-and ICERs shift by up to +58% (CNRD). Differences come from placeholders and assumptions the reports leave open,
-a few structural reinterpretations (CAIS transitions, CNRD hospitalisation counting), and timing conventions
-(for example a half-cycle correction in CISS). Full write-up: [docs/replication_check_original_vs_duplicate.md](docs/replication_check_original_vs_duplicate.md).
-
 ## Layout
 
 | Path | Contents |
