@@ -1,4 +1,4 @@
-# HTA replication check: Original vs Duplicate
+# Disease Analogue Model Duplication
 
 A comparison of two R implementations of five fictional cost-effectiveness models, built to test how
 closely a model replicated from a report matches its reference implementation.
